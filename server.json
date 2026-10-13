@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.montoyer.eujobs/eu-vacancies",
+  "title": "EU vacancies tracker",
+  "description": "Open vacancies and competitions of the EU institutions, read daily from their official job pages.",
+  "version": "1.2.0",
+  "websiteUrl": "https://eujobs.montoyer.com/assistants",
+  "icons": [
+    {
+      "src": "https://eujobs.montoyer.com/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x474"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eujobs.montoyer.com/mcp"
+    }
+  ]
+}
