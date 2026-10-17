@@ -77,6 +77,8 @@ A date the site does not have is absent. A planned date is marked as planned.
 
 ## Adding it to an assistant
 
+[INSTALL.md](INSTALL.md) covers every client: one `npx add-mcp` command for the coding agents, Codex, Gemini CLI, VS Code, Cursor, Windsurf, and a bridge for clients that run local servers only.
+
 **Claude.** In the settings, under "Connectors", choose "Add custom connector", give it a name and paste the address.
 
 **ChatGPT.** In the settings, under "Apps and connectors", create a connector with the address and no authentication.
